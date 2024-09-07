@@ -37,7 +37,15 @@ if len(questions) % 2 != 0:
     questions.append("")
     answers.append("")
 
-os.mkdir("./output")
+# newline support
+for i in range(len(questions)):
+    questions[i] = questions[i].replace("\\n", "\n")
+for i in range(len(answers)):
+    answers[i] = answers[i].replace("\\n", "\n\n")
+
+if not os.path.exists("./output"):
+    os.mkdir("./output")
+
 with open("output/"+name+".tex", "w+") as f:
     f.write(head_text)
 
