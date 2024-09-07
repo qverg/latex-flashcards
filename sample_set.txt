@@ -1,0 +1,29 @@
+Lines not starting with Q or A and a space are ignored.
+Answer must immediately follow question or the question will not be processed.
+
+Q Sample question.
+A Sample answer: $e^{i\pi} + 1 = 0$.
+
+Q Second sample question
+A Second sample answer: $abc$.
+
+Q q3
+A a3
+
+Q q4
+A a4
+
+Q q5
+A a5
+
+Q q6
+A a6
+
+Q q7
+A a7
+
+Q q8
+A a8
+
+Q q9
+A a9
