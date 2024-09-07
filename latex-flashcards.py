@@ -4,8 +4,7 @@ import os
 questions = []
 answers = []
 
-#with open(sys.argv[1], "r") as f:
-with open("sample_set.txt", "r") as f:
+with open(sys.argv[1], "r") as f:
     lines = f.readlines()
 
 print(lines)    # debug
@@ -21,8 +20,7 @@ assert(len(questions) == len(answers))
 
 
 # Thanks to https://tex.stackexchange.com/questions/73954/how-to-split-a-page-in-six-equally-sized-sectors
-#name = sys.argv[1].split(".")[0]
-name = "sample_set"
+name = sys.argv[1].split(".")[0]
 
 head_text = r"""\documentclass{article}
 \usepackage[margin=.2cm,centering,portrait]{geometry}
