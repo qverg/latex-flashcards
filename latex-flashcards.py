@@ -1,4 +1,5 @@
 import sys
+import os
 
 questions = []
 answers = []
@@ -41,7 +42,8 @@ if len(questions) % 2 != 0:
     questions.append("")
     answers.append("")
 
-with open(name+".tex", "w+") as f:
+os.mkdir("./output")
+with open("output/"+name+".tex", "w+") as f:
     f.write(head_text)
 
     q_counter = 0
