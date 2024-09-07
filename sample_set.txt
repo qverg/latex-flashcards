@@ -8,7 +8,7 @@ Q Second sample question
 A Second sample answer: $abc$.
 
 Q q3
-A a3\nNewline support.
+A a3\nNewline support. Using this creates a newline in the \LaTeX\ output. This is also an example of a long line.
 
 Q q4
 A a4
