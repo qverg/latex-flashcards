@@ -7,15 +7,12 @@ answers = []
 with open(sys.argv[1], "r") as f:
     lines = f.readlines()
 
-print(lines)    # debug
-
 for i, line in enumerate(lines):
     if line[:2] == "Q " and i < len(lines) - 1:
         if lines[i+1][:2] == "A ":
             questions.append(line[2:].strip())
             answers.append(lines[i+1][2:].strip())
 
-print(*zip(questions, answers))  # debug
 assert(len(questions) == len(answers))
 
 
@@ -62,7 +59,6 @@ with open("output/"+name+".tex", "w+") as f:
                 q_counter += 1
             
         elif counting == "A":
-            print(q_counter, a_counter)
             if a_counter == q_counter:
                 counting = "Q"
                 f.write("\\newpage\n")
