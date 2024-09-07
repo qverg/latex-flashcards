@@ -8,3 +8,5 @@ python latex-flashcards.py sample_set.txt
 replacing ``sample_set.txt`` with the filename of your set of flashcards.
 
 The script will create a folder called "output" containing the ``.tex`` file.
+
+There will be 8 flashcards per A4 page, so make sure the contents of the flashcards are small enough to fit.
