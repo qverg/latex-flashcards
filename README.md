@@ -1,7 +1,7 @@
 # latex-flashcards
-This python script takes takes in a set of flashcards and creates a ``.tex`` file which you can compile, print double-sided (flip on long edge) and cut out.
+This python script takes takes in a set of flashcards and creates a ``.tex`` file which you can compile, print double-sided (flip on long edge) and cut out. You need to have Python and a TeX compiler installed to use this.
 
-See ``sample_set.txt`` for how an input file should look. Then run
+See ``sample_set.txt`` for how an input file should look. Then run the following command in the command line, open in the same folder as the Python file:
 ```
 python latex-flashcards.py sample_set.txt
 ```
