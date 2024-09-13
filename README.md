@@ -5,7 +5,11 @@ This python script takes takes in a set of flashcards and creates a ``.tex`` fil
 
 See ``sample_set.txt`` for what an input file should look like.
 
-Open the command line or terminal in the same directory as the file ``latex-flashcards.py`` and run the following command:
+###### Windows
+run latex-flashcards.bat and follow the instructions. (``python`` must be a valid command in the command line).
+
+###### Other/manually
+Open the command line or terminal in the same directory as the file ``latex-flashcards.py`` and run the following command (``python`` must be a valid command):
 ```
 python latex-flashcards.py sample_set.txt
 ```
