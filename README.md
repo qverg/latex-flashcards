@@ -14,10 +14,10 @@ Screenshots of the corresponding output:
 
 ### Instructions
 
-See ``sample_set.txt`` for what an input file should look like.
+See ``sample_set.txt`` for what an input file should look like. Download or clone this repository.
 
 ###### Windows
-run latex-flashcards.bat and follow the instructions. (``python`` must be a valid command in the command line. If it is not, add your Python installation to PATH.)
+Run ``latex-flashcards.bat`` and follow the instructions. (``python`` must be a valid command in the command line. If it is not, add your Python installation to PATH.)
 
 ###### Other/manually
 Open the command line or terminal in the same directory as the file ``latex-flashcards.py`` and run the following command (``python`` must be a valid command):
