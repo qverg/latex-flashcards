@@ -18,3 +18,6 @@ replacing ``sample_set.txt`` with the path/filename of your set of flashcards. (
 The script will create a folder called "output" containing the ``.tex`` file.
 
 There will be 8 flashcards per A4 page, so make sure the contents of the flashcards are small enough to fit. The script supports newlines (using \n in the source file, see ``sample_set.txt``) and line wrapping.
+
+### Tips
+ - To use $\LaTeX\$ packages, edit the variable ``head_text`` in ``latex-flashcards.py``
