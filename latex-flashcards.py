@@ -39,7 +39,7 @@ if len(questions) % 2 != 0:
 
 # newline support
 for i in range(len(questions)):
-    questions[i] = questions[i].replace("\\n", "\n")
+    questions[i] = questions[i].replace("\\n", "\n\n")
 for i in range(len(answers)):
     answers[i] = answers[i].replace("\\n", "\n\n")
 
